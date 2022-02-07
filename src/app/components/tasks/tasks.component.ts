@@ -8,7 +8,7 @@ import {Task} from '../../Task'
   styleUrls: ['./tasks.component.css']
 })
 export class TasksComponent implements OnInit {
-    taks: Task[] = TASKS;
+    tasks: Task[] = TASKS;
 
   constructor() { }
 
